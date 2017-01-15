@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+/* Navigation Bar Contents */
+
+.nav-bar {
+    background-image: url("portfolio-background.jpg");
+    display: flex;
+    padding: 1em 0;
+}
+
+#about {
+
+}
+.nav-bar h1 {
+    color: #fff;
+    font-family: Pacifico;
+    text-align: center;
+}
