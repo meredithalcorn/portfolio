@@ -1,20 +1,60 @@
 body {
+    background-image: url("gray-portfolio.jpg");
+    line-height: 1.6;
     margin: 0;
+    font-family: Open Sans;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Navigation Bar Contents */
 
 .nav-bar {
     background-image: url("portfolio-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     padding: 1em 0;
+    height: 394px;
+    width: auto;
 }
 
-#about {
 
+.nav-bar img {
+    postion: fixed;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
 }
-.nav-bar h1 {
+
+.nav-bar ul {
+    float: left;
+    margin-left: 5%;
+    width: 100%;
+    font-size: 50px;
+    list-style: none;
+}
+
+.nav-bar a:visited {
+    text-decoration: none;
     color: #fff;
+}
+
+.nav-bar #name {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     font-family: Pacifico;
-    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.nav-bar #brief-intro {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 5%;
+    color: #fff;
 }
