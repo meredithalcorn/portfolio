@@ -15,10 +15,12 @@ body {
   font-size: 22px;
 }
 
+/* Navigation Bar Contents */
 .main-nav {
   background-image: url("gray-portfolio.jpg");
   padding: 1.5em 2em;
   margin-top: -20px;
+  list-style-type: none
 }
 .main-nav a {
     display: inline-block;
@@ -28,9 +30,13 @@ body {
     margin: 10px;
     color: black;
 }
-/* Navigation Bar Contents */
+
+.main-nav a:hover {
+  background-color: #fff;
+}
 
 .main-header {
+  text-align: center;
     background-image: url("portfolio-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,8 +59,21 @@ body {
 }*/
 
 .name {
-  font-size: 50px;
+  font-size: 3em;
   font-family: Pacifico;
+}
+
+img {
+  margin-left: 5%;
+  border-radius: 10px;
+  height: 500px;
+  width: 520px;
+
+}
+
+.content-wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer {
@@ -64,6 +83,9 @@ footer {
   display: block;
   text-align: center;
   padding: 1.5em 2em;
+  color: #fff;
+  font-size: 1.7em;
+  font-family: Pacifico;
 }
 
 @media (min-width: 769px) {
@@ -72,6 +94,7 @@ footer {
     width: 70%;
     max-width: 2000px;
     margin: 0 auto;
+    bo
   }
 
  	.name,
@@ -84,6 +107,47 @@ footer {
 
 }
 
+@media (min-width: 2430px) {
+  .container
+  {
+    width: 70%;
+    max-width: 3000px;
+    color: green;
+    /*margin-left: 10px;
+    margin-right: -2px;*/
+    margin: 0 auto;
+  }
+
+  img {
+    height: 400px;
+    width: 420px;
+    border-radius: 10px;
+  }
+  footer {
+    padding-bottom: 5em;
+  }
+
+}
+
+@media (max-width: 520px) {
+  .container
+  {
+    width: 70%;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  .main-nav a
+  {
+  	display: none;
+  }
+
+  img {
+    height: 300px;
+    width: 320px;
+  }
+
+}
 
 /*.nav-bar img {
     postion: fixed;
